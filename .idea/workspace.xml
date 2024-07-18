@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="517d51d4-b448-44e6-848f-da0625b8d77c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/BillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/ParkingLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/AddFloorRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/AddFloorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateParkingLotRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateParkingLotResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateTicketRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateTicketResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/GenerateBillRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/GenerateBillResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/BillPaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/EVCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/EntryGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/SpotType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/BillRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/BillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/spotassigningstrategies/OrderAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/spotassigningstrategies/SpotAssignmentStrategy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jN9GQKeB512yT7VZA8qSrWvpeE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ParkingLot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="517d51d4-b448-44e6-848f-da0625b8d77c" name="Changes" comment="" />
+      <created>1721216570824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721216570824</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
